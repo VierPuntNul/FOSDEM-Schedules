@@ -72,69 +72,12 @@ body, h1, h2, h3, h4, h5, h6, a, p{
     font-family: "Open Sans";
 }
 
-footer{
-    background: #c63c0c;
-    overflow: auto;
-    padding: 1em;
-    width: 100%;
-}
-footer p{
-    color: white;
-}
-
-/*Wordpress image styles*/
-img.alignright {float:right; margin:0 0 1em 1em}
-img.alignleft {float:left; margin:0 1em 1em 0}
-img.aligncenter {display: block; margin-left: auto; margin-right: auto}
-a img.alignright {float:right; margin:0 0 1em 1em}
-a img.alignleft {float:left; margin:0 1em 1em 0}
-a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-    ul.mainmenu{
-        float: right;
-        margin-top: 2em;
-    }
-    ul.mainmenu li{
-        float: left;
-        margin-left: 1em;
-        margin-right: 0;
-        display: block;
-    }
-    ul.mainmenu li a,ul.mainmenu li a:link,ul.mainmenu li a:active,ul.mainmenu li a:visited{
-        color: #444;
-        background: none;
-    }
-    ul.mainmenu li.active a,ul.mainmenu li.active a:link,ul.mainmenu li.active a:active,ul.mainmenu li.active a:visited{
-        color: #EEE;
-        background: #c63c0c;
-    }
-    ul.mainmenu li a:hover{
-        color: white;
-        background: #c63c0c;
-    }
-    ul.mainmenu li.active a:hover{
-        color: #fff;
-    }
-    .read-more{
-        display: inline-block;
-        float: left;
-        text-align: left;
-        margin-bottom: 40px;
-    }
-    
-    footer p.social{
-            text-align: right;
-            line-height: 40px;
-    }
-    footer p.copy{
-        text-align: left;
-        line-height: 40px;
-    }
+
 }
 
 @media print,
